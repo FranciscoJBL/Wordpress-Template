@@ -17,7 +17,7 @@ services:
       - mysql
     image: wordpress
     ports:
-      - 8080:80
+      - 9000:80
     restart: always
     volumes:
       - ./core/:/var/www/html/
